@@ -14,7 +14,10 @@ redirect-gateway
 # Identity
 key-direction 1
 remote-cert-tls server
-
+<auth-user-pass>
+catague2
+catague123
+</auth-user-pass>
 auth-nocache
 
 # Security
@@ -207,6 +210,7 @@ e40ddf0273c84c644cabd29cc10e6d97
 -----END OpenVPN Static key V1-----
 
 </tls-auth>
+
 "},
      
     ]
