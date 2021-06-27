@@ -14,7 +14,7 @@ redirect-gateway
 # Identity
 key-direction 1
 remote-cert-tls server
-auth-user-pass
+
 auth-nocache
 
 # Security
